@@ -1,0 +1,11 @@
+CREATE TABLE users (
+    userID INT AUTO_INCREMENT,
+    userName VARCHAR(50),
+    diabetesType VARCHAR(50),
+    PRIMARY KEY(userID));
+
+Create Table authorizedAdminViewers (
+    adminUserName VARCHAR(50),
+    adminPassWord VARCHAR(50),
+    PRIMARY KEY(adminUserName)); 
+    
